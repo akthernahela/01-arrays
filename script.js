@@ -48,6 +48,9 @@ console.log(firstTeacher);
 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");
+console.log(teachers);
+//Con .push() ho aggiunto una stringa alla fine dell'array
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
