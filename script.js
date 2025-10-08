@@ -8,9 +8,20 @@ const teachers = [
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
 
+/*TOOLS:
+-Arrey [i] = value (per cambiare il valore)
+-Uso .pop() <!--lascia parentesi vuota--> Questa azione serve per rimuovere l'ultimo valore
+-Uso .shift() <!--lascia parentesi vuota--> Questa azione serve per rimuovere il primo valore
+-Uso .push(valore) <!--lascia parentesi vuota--> Questa azione serve per aggiungere un valore in fondo alla riga
+-Uso .unshift(valore) <!--lascia parentesi vuota--> Questa azione serve per aggiungere un valore all'inizio della riga
+-Per cercare un elemento .indexOf( valore )
+-Lenght === 0 serve per verificare se l'array è vuota
+*/
+
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = null;
+//Gli indici partono da zero
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
