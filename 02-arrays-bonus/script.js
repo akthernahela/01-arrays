@@ -34,6 +34,9 @@ console.log(longNames);
 //Devo dare un istruzione per selezionare la lunghezza degli elementi che voglio 
 
 // 3. Rimuovi 'Ed' dall'array teachers
+const teacherRemove = teachers.toSpliced(1, 1);
+console.log(teacherRemove);
+//Attenzione a non confondere con splice() 
 
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
