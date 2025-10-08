@@ -7,6 +7,7 @@ const teachers = [
   'Lewis',
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
+console.log(teachers);
 
 /*TOOLS:
 -Arrey [i] = value (per cambiare il valore)
@@ -20,8 +21,12 @@ const teachers = [
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = null;
+const fourthTeacher = teachers[3];
 //Gli indici partono da zero
+console.log(fourthTeacher);
+//Legge l'elemento che si trova alla 3 posizione partendo da 0
+//Non modifica l'array 
+
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
